@@ -1,0 +1,279 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Achizioționare bilet avion</title>
+</head>
+<body bgcolor="#f0ffff" >
+
+  
+
+
+    <form action="/action_page.php" >
+        
+        
+        <table border="1" align="center" width="900" rules="groups" bgcolor="white">
+            <tr>
+                <td></td>
+                <td>
+                    <table>
+                        <tr>
+                        <td></td>
+
+                        <th align="center" ><h2>Formular pentru rezervarea biletului de zbor din Cluj-Napoca</h2> </th>
+                        <td><img src="airplane.jpg" alt="imagine avion"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td width="75" ></td>
+                <td >
+                    <fieldset >
+                        <legend>Informații client</legend>
+                        <table >
+                            <tr><td></td></tr>
+                            <tr><td></td></tr>
+
+                            <tr >
+                                <td>Nume:</td>
+                                <td><input type="text"></td>
+                                <td>Prenume:</td>
+                                <td><input type="text"></td>
+                                <td>Telefon:</td>
+                                <td><input type="text"></td>
+
+                            </tr>
+                            <tr><td></td></tr>
+                            <tr>
+                                <td>Gen:</td>
+                                <td align="center"> <input type="radio" name="gen">Feminin</td>
+                                <td colspan="2" align="center"><input type="radio" name="gen">Masculin</td>
+                                <td align="center"><input type="radio" name="gen">Altul</td>
+
+                            </tr>
+                            <tr><td></td></tr>
+                            <tr>
+                                <td >Adresa:</td>
+                                <td colspan="5"> <input type="text" size="95"></td>
+                            </tr>
+                            <tr><td></td></tr>
+                            <tr>
+                                <td>Judet:</td>
+                                <td>
+                                    <select >
+                                        <option value="Alba" >Alba</option>
+                                        <option value="Cluj" selected>Cluj</option>
+                                        <option value="Bucuresti">Bucuresti</option>
+                                        <option value="Suceava">Suceava</option>
+                                    </select>
+                                </td>
+                                <td>Oras:</td>
+                                <td><input type="text"></td>
+                                <td>Cod postal:</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr><td></td></tr>
+
+                            <tr>
+                                <td>Tara:</td>
+                                <td><input type="text" value="Romania" readonly></td>
+                                <td>Email:</td>
+                                <td colspan="3"><input type="text" size="60"></td>
+
+
+                            </tr>
+                            <tr><td></td></tr>
+
+                        </table>
+                    </fieldset>
+                    <br>
+
+                </td>
+                <td width="75" ></td>
+            </tr>
+            <tr>
+                <td width="75" ></td>
+                <td >
+                    <fieldset >
+                        <legend>Informatii zbor</legend>
+                        <table >
+                            <tr>
+                                <td>Plecare:</td>
+                                <td><input type="text"></td>
+                                <td width="100" align="center">Numar Zbor:</td>
+                                <td >
+                                    <select >
+                                        <option value="N1" >N1</option>
+                                        <option value="N12" selected>N12</option>
+                                        <option value="N134">N134</option>
+                                        <option value="N545">N545</option>
+                                    </select>
+                                </td>
+                                <td width="100" align="center">Clasa:</td>
+                                <td >
+                                    <select >
+                                        <option value="Clasa Intai" >Clasa intai</option>
+                                        <option value="Clasa a doua" selected>Clasa a doua</option>
+                                        <option value="Clasa business">Clasa business</option>
+                                        <option value="Clasa econimica">Clasa econimica</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr><td></td></tr>
+
+                            <tr>
+                                <td>Plecare din :</td>
+                                <td colspan="2" >
+                                    <input type="text" value="Aeroportul Internațional Avram Iancu Cluj" disabled size="40">
+                                </td>
+                                <td colspan="2" align="center">Destinatie:</td>
+                                <td colspan="2">
+                                    <input type="text" >
+                                </td>
+                            <tr><td></td></tr>
+                            <tr>
+                                <td colspan="6">
+                                    <table border="0">
+                                        <tr>
+                                            <td  >Tip/Tipuri bagaje:  </td>
+                                            <td colspan="3">
+                                                <input type="checkbox" name="bagaj" value="Fara bagaj"> Fara bagaj
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td colspan="3"><input type="checkbox" name="bagaj" value="Bagaj de mana"> Bagaj de mana 40 x 30 x 20 cm ( max. 10 kg  40 x 30 x 20 cm - GRATUIT)</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td colspan="3"><input type="checkbox" name="bagaj" value="Bagaj de cala"> Bagaj de cala 149 x 119 x 171 cm  (max. 10 kg sau 22 kg - CONTRACOST)</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td colspan="3"><input type="checkbox" name="bagaj" value="Troller"> Troller 55 x 40 x 23 cm ( valabil doar la clasa BUSINESS)</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Note:</td>
+                            </tr>
+                            <tr >
+                                <td colspan="6" >
+                                   <textarea rows="4" cols="90">e.g. Bagaje tratate cu grija</textarea>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </fieldset>
+                </td>
+                <td width="75"></td>
+            </tr>
+
+            <tr>
+                <td width="85" ></td>
+                <td >
+                    <fieldset >
+                        <legend>Pasageri</legend>
+                        <table >
+                            <tr>
+                                <th align="center" width="105" >NO</th>
+                                <th align="center" width="105" >Nume</th>
+                                <th align="center" width="105" >Prenume</th>
+                                <th align="center" width="105" >Date pasaport (Serie, Numar)</th>
+                                <th align="center" width="105" >Data expire Visa</th>
+
+                            </tr>
+                            <tr>
+                                <td align="center" width="105" >1</td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" width="105" >2</td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" width="105" >3</td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" width="105" >4</td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                                <td align="center" width="105" ><input type="text"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <br>
+
+                </td>
+                <td width="15" ></td>
+            </tr>
+            <tr>
+                <td width="75" ></td>
+                <td>
+                    <div>
+                        <br>
+                        <strong>REGULAMENT:</strong>
+
+                        <ol type="A">
+                            <li>Este important să vă asigurați că dimensiunea bagajelor dvs. este acceptată de compania aeriană, în funcție de opțiunile alese la rezervare.</li>
+                            <li>La intrarea/ieşirea în/din România trebuie să înscrieţi în declaraţia vamală următoarele obiecte:
+                                <ol>
+                                    <li>bijuterii ce depăşesc nevoile personale</li>
+                                    <li>medicamente, substanţe chimice, materiale toxice
+                                        <ul>
+                                            <li>medicamente ce conțin substanțe narcotice </li>
+                                            <li>substanțe considerate echivalente celor narcotice</li>
+                                        </ul>
+                                    </li>
+                                    <li>arme, muniţii, materiale explozibile</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                </td>
+                <td width="75" ></td>
+            </tr>
+
+
+            <tr>
+
+                <td></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td width="460">
+                                <p><b>*Prezenta obligatorie cu cel putin 2 ore inainte de zbor</b></p>
+                            </td>
+                            <td align="right" colspan="2" >
+                                <input type="reset" value="Reseteaza">
+                                <input type="submit" value="Achizitioneaza bilet">
+
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>
